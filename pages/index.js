@@ -60,7 +60,7 @@ export default function Home() {
             <input
               id="name"
               type="text"
-              placeholder="Jane Doe"
+              placeholder="   username "
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -81,7 +81,7 @@ export default function Home() {
               type="number"
               min="1"
               step="0.01"
-              placeholder="1000"
+              placeholder="amount "
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
               required
