@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  background: #f4f6f9;
+  color: #1a1a1a;
+}
+
+a {
+  color: #0d9488;
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+}
+
+.card h1 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin: 0 0 24px;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+input {
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 16px;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+input:focus {
+  border-color: #0d9488;
+}
+
+button {
+  background: #0d9488;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+button:hover:not(:disabled) {
+  background: #0b7c72;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 13px;
+  margin: -6px 0 14px;
+}
+
+.status-icon {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.details {
+  text-align: left;
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.details p {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+
+.details span:first-child {
+  color: #6b7280;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-weight: 600;
+}
