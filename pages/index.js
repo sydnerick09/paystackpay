@@ -13,7 +13,7 @@ export default function Home() {
     setError('');
 
     if (!email || !amount) {
-      setError('Please enter your email and an amount.');
+      setError('Please enter your email and an amount to receive reshare on WhatsApp.');
       return;
     }
 
