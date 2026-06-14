@@ -53,7 +53,7 @@ export default function Home() {
       <div className="container">
         <div className="card">
           <h1>Make a Payment</h1>
-          <p className="subtitle">Secure checkout powered by Paystack</p>
+          <p className="subtitle">Hello belvin pay ksh 50 and receive reshare icon on WhatsApp</p>
 
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">Full Name (optional)</label>
