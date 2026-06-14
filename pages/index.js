@@ -53,7 +53,7 @@ export default function Home() {
       <div className="container">
         <div className="card">
           <h1>Make a Payment</h1>
-          <p className="subtitle">Hello belvin pay ksh 50 and receive reshare icon on WhatsApp</p>
+          <p className="subtitle">Tuma hizo pesa zako mingi apa 😂</p>
 
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">Full Name (optional)</label>
