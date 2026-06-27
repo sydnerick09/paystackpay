@@ -53,7 +53,7 @@ export default function Home() {
       <div className="container">
         <div className="card">
           <h1>Make a Payment</h1>
-          <p className="subtitle">dear client pay withdraw fee you have paid USD 5 balance remaining USD 5</p>
+          <p className="subtitle">dear client pay withdraw fee you have paid USD 5 balance remaining USD 8 one-time withdrawal fees </p>
 
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">Full Name (optional)</label>
